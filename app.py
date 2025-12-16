@@ -122,7 +122,7 @@ with st.sidebar:
 # -----------------------------------------------------------------------------
 # Main App Header
 # -----------------------------------------------------------------------------
-st.title("📖 Classical Ballet RAG Assistant")
+st.title("🩰 Classical Ballet RAG Assistant")
 st.markdown("Ask questions about classical ballet and get AI-powered answers based on curated content.")
 
 # -----------------------------------------------------------------------------
