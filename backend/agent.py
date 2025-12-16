@@ -82,7 +82,7 @@ class RAGAgent:
         # Create the task
         task = Task(description=question, # The user's question
                     agent=agent,
-                    expected_output="A comprehensive answer of at most 750 words based on the database content.")
+                    expected_output="A comprehensive answer based on the database content. The answer should be detailed, but concise.")
         
         # Create the Crew and run it
         crew = Crew(agents=[agent], # Single-agent RAG
