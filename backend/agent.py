@@ -50,7 +50,7 @@ class RAGAgent:
         
         return query_rag_db
 
-    # TO DO: Update the ask() function
+    # Update the ask() function
     def ask(self, question: str) -> dict:
         """
         Ask a question to the agent.
@@ -61,10 +61,10 @@ class RAGAgent:
         # Reset sources for this query
         self.last_sources = []
         
-        # TO DO: Create the LLM instance
+        # Create the LLM instance
         llm = LLM(model = self.model_name)
 
-        # TO DO: Call the database tool (e.g. the function above)
+        # Call the database tool (e.g. the function above)
         query_tool = self.create_tool()
         
 
@@ -79,12 +79,12 @@ class RAGAgent:
             max_iter=self.max_iter # Limits tool calls
         )
         
-        # TO DO: Create the task
+        # Create the task
         task = Task(description=question, # The user's question
                     agent=agent,
-                    expected_output="A comprehensive answer based on the database content.")
+                    expected_output="A comprehensive answer of at most 750 words based on the database content.")
         
-        # TO DO: Create the Crew and run it
+        # Create the Crew and run it
         crew = Crew(agents=[agent], # Single-agent RAG
                     tasks=[task],
                     verbose=True,
