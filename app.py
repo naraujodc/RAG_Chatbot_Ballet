@@ -64,13 +64,13 @@ if 'temp_prompt' not in st.session_state:
 with st.sidebar:
     st.header("⚙️ Configuration")
     
-    # TO DO: API Key input
+    # API Key input
     # Make sure the user can hide their input
     api_key = st.text_input("OpenAI API Key",
                             type = "password",
                             help = "Enter your OpenAI API Key.")
     
-    # TO DO: Database path input via config.py
+    # Database path input via config.py
     db_path = st.text_input("Database Path",
                             value = config.DEFAULT_DB_PATH,
                             help = "Path to your DuckDB vector database.")
@@ -78,7 +78,7 @@ with st.sidebar:
     # Store in session state
     st.session_state.db_path = db_path
     
-    # TO DO: Top K results with an interactive slider bar
+    # Top K results with an interactive slider bar
     top_k = st.slider("Results per Query",
                       min_value = 3,
                       max_value = 20,
@@ -87,12 +87,12 @@ with st.sidebar:
     # Store in session state
     st.session_state.top_k = top_k
     
-    # TO DO: Model selection dropdown menu
+    # Model selection dropdown menu
     model_choice = st.selectbox("LLM Model",
                                 config.AVAILABLE_MODELS,
                                 index = 0)
     
-    # TO DO: Create max_iter slider
+    # Create max_iter slider
     # Max iterations for tool calls
     max_iter = st.slider("Max Tool Calls",
                          min_value= 1,
@@ -102,14 +102,14 @@ with st.sidebar:
     
     st.divider()
     
-    # TO DO: Clear chat button
+    # Clear chat button
     if st.button("🗑️ Clear Chat History"):
         st.session_state.messages = []
         st.rerun()
     
     st.divider()
     
-    # TO DO: Update for your project
+    # Update for your project
     st.markdown("""
     ### About
     This RAG assistant answers questions about Classical Ballet using:
@@ -194,10 +194,10 @@ elif input_prompt:
 
 if prompt_to_process:
     
-    # TO DO: Add user message to history
+    # Add user message to history
     st.session_state.messages.append({"role":"user", "content":prompt_to_process})
 
-    # TO DO: Display user message
+    # Display user message
     with st.chat_message("user"):
         st.markdown(prompt_to_process)
 
@@ -205,7 +205,7 @@ if prompt_to_process:
     with st.chat_message("assistant"):
         with st.spinner("Searching database and generating answer..."):
             try:
-                # TO DO: Initialize Agent
+                # Initialize Agent
                 agent = RAGAgent(db = st.session_state.database,
                                  model_name= model_choice,
                                  max_iter= max_iter)
@@ -248,7 +248,7 @@ if prompt_to_process:
                     "sources": []
                 })
 
-# TO DO: Example questions in an expander
+# Example questions in an expander
 with st.expander("💡 Example Questions"):
     examples = [
         "Give me the main takeaways of the documentary about Louis XIV and the invention of ballet.",
