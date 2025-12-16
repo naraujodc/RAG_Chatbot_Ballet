@@ -123,7 +123,7 @@ with st.sidebar:
 # Main App Header
 # -----------------------------------------------------------------------------
 st.title("🩰 Classical Ballet RAG Assistant")
-st.markdown("Ask questions about classical ballet and get AI-powered answers based on curated content.")
+st.markdown("Ask questions about classical ballet and get AI-powered answers based on curated content. The content is focused on the history of ballet and its important figures, including dancers, choreographers, and composers.")
 
 # -----------------------------------------------------------------------------
 # Database Connection
