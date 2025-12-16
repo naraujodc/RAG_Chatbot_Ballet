@@ -58,6 +58,8 @@ The diagram below illustrates the process of creating the vector database from t
 Diagram of the database creation (gray) and RAG pipeline (pink)
 </p>
 
+*Note:* The conceptual RAG pipeline diagram was inspired by the framework presented in the Gradient Flow article, [*Best Practices in Retrieval-Augmented Generation (RAG)*](https://gradientflow.substack.com/p/best-practices-in-retrieval-augmented).
+
 ## Document Collection Summary
 The Classical Ballet RAG Assistant was built upon a curated collection of materials, ensuring specialized knowledge across history, technique, and repertoire.
 
