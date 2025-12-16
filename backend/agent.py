@@ -27,7 +27,7 @@ class RAGAgent:
             """Search the vector database containing customized texts.
             
             Args:
-                query: Search query about topic.
+                query: Search query about classical ballet.
                 
             Returns:
                 Relevant passages from the database
@@ -80,12 +80,12 @@ class RAGAgent:
         )
         
         # TO DO: Create the task
-        task = Task(description=question,
+        task = Task(description=question, # The user's question
                     agent=agent,
                     expected_output="A comprehensive answer based on the database content.")
         
         # TO DO: Create the Crew and run it
-        crew = Crew(agents=[agent],
+        crew = Crew(agents=[agent], # Single-agent RAG
                     tasks=[task],
                     verbose=True,
                     max_rpm=20)
