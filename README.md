@@ -4,12 +4,21 @@
 <a href="https://balletchat.streamlit.app"><img alt="Classical Ballet RAG Chatbot" src="https://img.shields.io/badge/Classical%20Ballet%20RAG%20Chatbot-ffdce8"/></a> &nbsp;
 </p>
 
+![Python](https://img.shields.io/badge/-Python-ffe873?style=flat&logo=python)&nbsp;
+![Streamlit](https://img.shields.io/badge/Streamlit-ececec?style=flat&logo=streamlit)&nbsp;
+![crewAI](https://img.shields.io/badge/crewAI-2a7e75?style=flat&logo=crewai)&nbsp;
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai)&nbsp;
+![DuckDB](https://img.shields.io/badge/DuckDB-CC6600?style=flat&logo=duckdb)&nbsp;
+![Sentence Transformers](https://img.shields.io/badge/Sentence--Transformers-4A73E8?style=flat&logo=huggingface)&nbsp;
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy)&nbsp;
+![Docling](https://img.shields.io/badge/Docling-00BFFF?style=flat&logo=markdown)&nbsp;
+
 ## Table of Contents
-[1. Description](#description)
-[2. Domain Overview and Problem Statement](#domain-overview-and-problem-statement)
-[3. Retrieval-Augmented Generation Pipeline](#retrieval-augmented-generation-pipeline)
-[4. Document Collection Summary](#document-collection-summary)
-[5. Agent Configuration Details](#agent-configuration-details)
+[1. Description](#description)\
+[2. Domain Overview and Problem Statement](#domain-overview-and-problem-statement)\
+[3. Retrieval-Augmented Generation Pipeline](#retrieval-augmented-generation-pipeline)\
+[4. Document Collection Summary](#document-collection-summary)\
+[5. Agent Configuration Details](#agent-configuration-details)\
 [6. Installation and Setup Instructions](#installation-and-setup-instructions)
 
 ## Description
@@ -26,6 +35,11 @@ In the app's sidebar, users can:
 - Insert an OpenAI API Key. **This is necessary for the use of the app and the key is kept secret.**
 - Test different numbers of **Results per Query**: This defines how many chunks of text are retrieved from the database in a single search. 
 - Test different numbers of **Max Tool Calls**: This determines the number of times the agent can call the database search tool for a single user query.
+
+<p align="center">
+<img src="https://github.com/naraujodc/RAG_Chatbot_Ballet/blob/main/images/RAG_Ballet_Chatbot_Usage.png">
+Screenshot of the chatbot after sending a sample question
+</p>
 
 ## Domain Overview and Problem Statement
 Classical ballet is a form of art that has faced the test of time and continues to marvel audiences all over the world. While repertoire created centuries ago such as *The Nutcracker* and *Swan Lake* remain as the icons of ballet, this is a dynamic art form that continues to evolve and bring out new methods and forms of artistic expression and athleticism.
