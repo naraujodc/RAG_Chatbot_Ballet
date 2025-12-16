@@ -1,4 +1,4 @@
-# Classical Ballet RAG Chatbot
+# Classical Ballet RAG Assistant
 
 <p align="center">
 <a href="https://balletchat.streamlit.app"><img alt="Classical Ballet RAG Chatbot" src="https://img.shields.io/badge/Classical%20Ballet%20RAG%20Chatbot-ffdce8"/></a> &nbsp;
