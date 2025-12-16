@@ -69,7 +69,6 @@ These sources provide foundational knowledge on the origins, cultural significan
 
 * **Wikipedia** &mdash; [*History of ballet*](https://en.wikipedia.org/wiki/History_of_ballet)
 * **Mental Floss** &mdash; [*The Art of Power: How Louis XIV Ruled France… With Ballet*](https://www.mentalfloss.com/article/93297/art-power-how-louis-xiv-ruled-france-ballet)
-* **NPR** &mdash; [*Interview with historian Jennifer Homans, author of Apollo’s Angels: A History of Ballet*](https://www.npr.org/2010/12/13/132023182/the-tutu-s-tale-a-cultural-history-of-ballet-s-angels)
 * **The Grand Theatre** &mdash; [*Different Types of Ballet*](https://www.blackpoolgrand.co.uk/different-types-ballet)
 * **Wikipedia** &mdash; [*Ballet*](https://en.wikipedia.org/wiki/Ballet)
 * **Learn to Dance** &mdash; [*Ballet terms explained*](https://www.learntodance.com/online-ballet-dance-lessons/)
@@ -90,6 +89,7 @@ Transcribed content from videos covering history, prominent figures, and stylist
 
 * **BBC Documentary** &mdash; [*The King Who Invented Ballet: Louis XIV and the Noble Art of Dance*](https://youtu.be/NTJIlFhg85Q?si=Q8W2CzrGZxOHF8Tq)
 * **Lucasfilm** &mdash; [*Ballet: The Art of Dance \| Historical Documentary*](https://youtu.be/-b3z8Rk0zH8?si=17wU4agcEmXMwg2e)
+* * **NPR** &mdash; [*Interview with historian Jennifer Homans, author of Apollo’s Angels: A History of Ballet*](https://www.npr.org/2010/12/13/132023182/the-tutu-s-tale-a-cultural-history-of-ballet-s-angels)
 * **Ballet Reign** &mdash; [*Ballet Styles Explained: Which One is Right for You?*](https://youtu.be/4bS9RM70Mdk?si=UxwBF0VMJJOXSVba)
 * **Ballet Reign** &mdash; [*Ballet Legends: The Greatest Historical Dancers You Need To Know*](https://youtu.be/ohcq4Qj37ok?si=RayI7cN4yKzDtdKP)
 * **Kathryn Morgan** &mdash; [*6 Ballet Composers You NEED To Know*](https://youtu.be/4MsTBMhaa2g?si=AurnQYgzOgPenIAF)
